@@ -1,0 +1,44 @@
+body{
+    background-color: green;
+}
+
+.board-row{
+    display: flex;
+    justify-content: center;
+}
+
+#board{
+    max-width: 800px;
+    min-width: 320px;
+    padding-top: 100px;
+    margin: auto; /*to keep it in the middle of the screen*/
+    
+
+}
+img{
+    width: 100%;
+    margin: auto;
+}
+
+.square{
+    background-color: #fff;
+    border: 4px solid yellow;
+    width: 100px;
+    height: 100px;
+    outline: none; /* remove the blue line from clicking our squares*/
+    font-size: 50px; 
+
+}
+
+.square:hover{
+    background-color: rgb(255, 0, 0);
+}    
+
+#message{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+ .winningSquare{
+     background-color: green;
+ }
